@@ -22,7 +22,7 @@ app = Flask(__name__)
 # ============ CONFIG ============
 MAX_CONCURRENT = 50
 REFRESH_INTERVAL = 6300  # 1 ঘন্টা 45 মিনিট
-TOKEN_REFRESH_TIMEOUT = 5  # 🔥 প্রতিটি টোকেন রিফ্রেশের সময় ১০ সেকেন্ড
+TOKEN_REFRESH_TIMEOUT = 6  # 🔥 প্রতিটি টোকেন রিফ্রেশের সময় ১০ সেকেন্ড
 REQUEST_TIMEOUT = 5
 GLOBAL_REFRESH_LOCK = threading.Lock()
 MAX_ACCOUNTS_PER_REQUEST = 220
